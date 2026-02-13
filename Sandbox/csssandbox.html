@@ -1,0 +1,326 @@
+<!-- Hey! What are you poking around for? -->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+        <title>Amelia's CSS Sandbox</title>
+        <link rel="stylesheet" href="csssandbox.css">
+    </head>
+    <body>
+        <!-- Intro to the page -->
+        <div id="introduction">
+            <h1>Amelia's CSS Sandbox</h1>
+            <img src="Media/noob-roblox.gif" alt="Hiii hello!" title="Are you trying to give me a high five?">
+            <h3>This page is me learning how to use CSS!</h3>
+            <h5>Without frameworks at least (like Bootstrap, React, etc)</h5>
+            <hr>
+            <p>Listen to this ambience and take a look at this page-</p>
+            <audio src="Media/recovery.mp3" controls></audio>
+            <p>or check out the other sites I made as part of my frontend learning experience!</p>
+            <hr>
+            <h3>My Other Pages</h3>
+            <a href="htmlsandbox.html">
+                <button>My HTML Sandbox</button>
+            </a>
+            <a href="index.html">
+                <button>My JavaScript Sandbox</button>
+            </a>
+        </div>
+        <main>
+            <!-- Intro to the main section -->
+            <section>
+                <h2>So, you've decided to stick around?</h2>
+                <h4>Good! You get to watch me experiment with CSS and stuff!</h4>
+                <p id="test">
+                    Well, if for some reason, popcorn while reading nonsense tickles your fancy, be my guest!
+                </p>
+                <img src="Media/spongebob-eating-popcorn.gif" alt="This is supposed to be Spongebob eating popcorn." title="You want some?" style="display: block; margin: auto;">
+                <aside style="text-align: center;">
+                    <p>
+                    (Am I weird for putting pepper on my popcorn?)
+                    </p>
+                </aside>
+            </section>
+            <hr>
+            <!-- Table stuff -->
+            <section id="table-stuff">
+                <h2>Table Stuff</h2>
+                <p>
+                    So if I'm doing it right, a simple table will look like this:
+                </p>
+                <table>
+                    <tr>
+                        <td>Amelia</td>
+                        <td>Quinn</td>
+                        <td>Camden</td>
+                    </tr>
+                    <tr>
+                        <td>123-456-7890</td>
+                        <td>098-765-4321</td>
+                        <td>102-938-4756</td>
+                    </tr>
+                </table>
+                <aside style="margin-bottom: 0px;">
+                    <p>(Not real numbers, of course.)</p>
+                </aside>
+                <p>
+                    Where the entire table is encapsulated in a <b>&lt;table&gt;</b> tag, 
+                    table rows are encapsulated in a <b>&lt;tr&gt;</b> tag, and table columns,
+                    or "table data", the individual cells, are encapsulated in a 
+                    <b>&lt;td&gt;</b> tag.
+                    <br>
+                    <br>
+                    Unfortunately, it looks like shit, right? Surely we can do better?
+                    <br>
+                    <br>
+                    I just want to apologize to anyone seeing the source code in advance,
+                    its about to get very messy...
+                    <br>
+                    <br>
+                    But yes, we can make it look better, for instance:
+                </p>
+                <table style="border: 2px solid black; border-collapse: collapse;">
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">Amelia</td>
+                        <td style="border: 2px solid black;">Quinn</td>
+                        <td style="border: 2px solid black;">Camden</td>
+                    </tr>
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">123-456-7890</td>
+                        <td style="border: 2px solid black;">098-765-4321</td>
+                        <td style="border: 2px solid black;">102-938-4756</td>
+                    </tr>
+                </table>
+                <aside>
+                    <p>
+                        (Once again, not real numbers.)
+                    </p>
+                </aside>
+                <p>Yo, I can add bubble border things to them.</p>
+                <table>
+                    <tr style="border: 2px solid black; border-radius: 10px;">
+                        <td style="border: 2px solid black; border-radius: 10px;">Amelia</td>
+                        <td style="border: 2px solid black; border-radius: 10px;">Quinn</td>
+                        <td style="border: 2px solid black; border-radius: 10px;">Camden</td>
+                    </tr>
+                    <tr style="border: 2px solid black; border-radius: 10px;">
+                        <td style="border: 2px solid black; border-radius: 10px;">123-456-7890</td>
+                        <td style="border: 2px solid black; border-radius: 10px;">098-765-4321</td>
+                        <td style="border: 2px solid black; border-radius: 10px;">102-938-4756</td>
+                    </tr>
+                </table>
+                <aside>
+                    <p>
+                        (Are these real numbers?)
+                    </p>
+                    <form>
+                        <input type="radio" id="yes" name="Are they?">
+                        <label for="yes">Yes</label> 
+                        <input type="radio" id="no" name="Are they?">
+                        <label for="no">No</label> 
+                    </form>
+                    <p>Yeah these don't do anything- I haven't learned any JavaScript (yet).</p>
+                </aside>
+                <p>Yo, I can add headers to these tables.</p>
+                <table style="border: 2px solid black; border-collapse: collapse;">
+                    <tr style="border: 2px solid black;">
+                        <th>Name</th>
+                        <td style="border: 2px solid black;">Amelia</td>
+                        <td style="border: 2px solid black;">Quinn</td>
+                        <td style="border: 2px solid black;">Camden</td>
+                    </tr>
+                    <tr style="border: 2px solid black;">
+                        <th>Number</th>
+                        <td style="border: 2px solid black;">123-456-7890</td>
+                        <td style="border: 2px solid black;">098-765-4321</td>
+                        <td style="border: 2px solid black;">102-938-4756</td>
+                    </tr>
+                </table>
+                <p>
+                    I'll probably do more with tables later on, but I can't really think of anything to do with them right now.
+                </p>
+                <img src="Media/spongebob-thinking.gif" alt="Y'know, if you can see this, you'd think that you'd try restarting your browser by now..." title="I got nothing." class="small-image">
+            </section>
+            <hr>
+            <!-- List stuff -->
+            <section id="list-stuff">
+                <h2>List Stuff</h2>
+                <p>
+                    So, you can also make lists and stuff, ordered and unordered. <br>
+                    If I'm doing it right, an unordered list should look like this:
+                </p>
+                <ul>
+                    <li>Me</li>
+                    <li>Myself</li>
+                    <li>I</li>
+                    <li>Amelia</li>
+                    <li>Tranny dyke (AmeliaRyu)</li>
+                </ul>
+                <p>
+                    Where the entire list is encapsulated with the <b>&lt;ul&gt;</b> tag, <br>
+                    and the items of the list are encapsulated with the <b>&lt;li&gt;</b> tag.
+                    <br>
+                    <br>
+                    I can also make the individual bullets look different :&gt;
+                </p>
+                <ul style="list-style-type: circle;">
+                    <li>Me</li>
+                    <li>Myself</li>
+                    <li>I</li>
+                    <li>Amelia</li>
+                    <li>Tranny dyke (AmeliaRyu)</li>
+                </ul>
+                <p>Ooo- squares!</p>
+                <ul style="list-style-type: square;">
+                    <li>Me</li>
+                    <li>Myself</li>
+                    <li>I</li>
+                    <li>Amelia</li>
+                    <li>Tranny dyke (AmeliaRyu)</li>
+                </ul>
+                <p>Fuck it, no bullets!</p>
+                <ul style="list-style-type: none;">
+                    <li>Me</li>
+                    <li>Myself</li>
+                    <li>I</li>
+                    <li>Amelia</li>
+                    <li>Tranny dyke (AmeliaRyu)</li>
+                </ul>
+                <p>I can nest lists too! Check this out:</p>
+                <ul>
+                    <li>Me</li>
+                    <li>Myself</li>
+                    <li>I</li>
+                    <li>Amelia
+                        <ul style="list-style-type: disc;">
+                            <li>AmeliaRyu</li>
+                            <li>EclipseRyu</li>
+                            <li>Lesbo</li>
+                            <li>Tranny dyke</li>
+                        </ul>
+                    </li>
+                    <li>Countess of X</li>
+                </ul>
+                <p>Watch me cook up a navigation bar.</p>
+                <ul id="navigation-bar">
+                    <li class="navbar-item"><a id="navbar-item-left-a" href="#introduction">Intro</a></li>
+                    <li class="navbar-item"><a class="navbar-item-middle-a" href="#table-stuff">Table Stuff</a></li>
+                    <li class="navbar-item"><a class="navbar-item-middle-a" id="navbar-right"href="#list-stuff">List Stuff</a></li>
+                    <li class="navbar-item"><a class="navbar-item-middle-a" id="navbar-right" href="#div-stuff">Div Stuff</a></li>
+                    <li class="navbar-item"><a id="navbar-item-right-a" id="navbar-right" href="#conclusion">Conclusion</a></li>
+                </ul>
+                <p>^^^ This was interesting! ^^^</p>
+                <p>I can do ordered lists too! Watch!</p>
+                <h3 class="list-title">My Favorite Artists/Bands</h3>
+                <ol>
+                    <li>Kendrick Lamar</li>
+                    <li>Tool</li>
+                    <li>Tyler the Creator</li>
+                    <li>The Arcanes</li>
+                    <li>Nirvana</li>
+                </ol>
+                <p>I can order it with Roman numerals too!</p>
+                <ol type="I">
+                    <li>Kendrick Lamar</li>
+                    <li>Tool</li>
+                    <li>Tyler the Creator</li>
+                    <li>The Arcanes</li>
+                    <li>Nirvana</li>
+                </ol>
+                <p>I can nest them too! Just like unordered lists!</p>
+                <h3 class="list-title">My Favorite Artists/Bands</h3>
+                <h5 class="list-title">And My Favorite Songs From Them</h5>
+                </div>
+                <ol>
+                    <li>Kendrick Lamar
+                        <ul style="list-style-type: disc;">
+                            <li>United in Grief</li>
+                            <li>A.D.H.D</li>
+                            <li>Duckworth</li>
+                        </ul>
+                    </li>
+                    <li>Tool
+                        <ul style="list-style-type: disc;">
+                            <li>The Pot</li>
+                            <li>Vicarious</li>
+                            <li>Lateralus</li>
+                        </ul>
+                    </li>
+                    <li>Tyler, the Creator
+                        <ul style="list-style-type: disc;">
+                            <li>IFHY</li>
+                            <li>Colossus</li>
+                            <li>Yonkers</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>I nested unordered lists here because I can't order my favorite songs to be honest.</p>
+                <p>I would also show off description lists but I genuinely can't be bothered.</p>
+            </section>
+            <hr>
+            <section id="div-stuff">
+                <div id="div-intro">
+                    <h2>Div Stuff</h2>
+                    <p>
+                        So there's this fancy thing called a div which lets me put things
+                        in a container that I can modify with CSS. <br>
+                        Notice that the thing you're reading this in is a div itself. <br>
+                        You can use divs to do fancy stuff like this:
+                    </p>
+                    <div id="container-thing">
+                        <div style="background-color: red;">
+                            <h2>London</h2>
+                            <p>London is the capital city of England.</p>
+                            <p>London has over 9 million inhabitants.</p>
+                        </div>
+
+                        <div style="background-color: green;">
+                            <h2>Oslo</h2>
+                            <p>Oslo is the capital city of Norway.</p>
+                            <p>Oslo has over 700,000 inhabitants.</p>
+                        </div>
+
+                        <div style="background-color: blue;">
+                            <h2>Rome</h2>
+                            <p>Rome is the capital city of Italy.<br><br></p>
+                            <p>Rome has over 4 million inhabitants.</p>
+                        </div>
+                    </div>
+                    <p>Here's nearly the same thing again but with different code.</p>
+                    <div class="inline-div-thing" style="background-color: red;">
+                        <h2>London</h2>
+                        <p>London is the capital city of England.</p>
+                        <p>London has over 9 million inhabitants.</p>
+                    </div>
+                    <div class="inline-div-thing" style="background-color: green;">
+                        <h2>Oslo</h2>
+                        <p>Oslo is the capital city of Norway.</p>
+                        <p>Oslo has over 700,000 inhabitants.</p>
+                    </div>
+
+                    <div class="inline-div-thing" style="background-color: blue;">
+                        <h2>Rome</h2>
+                        <p>Rome is the capital city of Italy.<br></p>
+                        <p>Rome has over 4 million inhabitants.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div id="conclusion">
+            <h1>That's about it!</h1>
+            <p>
+                I haven't learned everything there is to know about CSS quite yet,
+                considering how much there really is to it, it would be crazy to try and
+                fit it all into one page. I'll end up learning more CSS and stuff as I go about
+                doing web projects and stuff. 
+            </p>
+            <img src="Media/bye-spongebob.gif" alt="Seriously, restart your damn browser..." title="Still trying to give me a high five?" style="width: 100%;">
+            <a href="#introduction">
+                <button style="margin-top: 10px;">To the top!</button>
+            </a>
+        </div>
+        <br>
+    </body>
+</html>

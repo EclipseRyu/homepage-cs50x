@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+        <title>Amelia's JS Sandbox</title>
+        <link rel="stylesheet" href="jssandbox.css">
+        <script src="jssandbox.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul id="topnav">
+                    <li class="topnav-item"><a id="topnav-item-left-a" href="#"></a></li>
+                    <li class="topnav-item"><a class="topnav-item-middle-a" href="#"></a></li>
+                    <li class="topnav-item"><a id="topnav-item-right-a" href="#"></a></li>
+            </ul>
+        </nav>
+        <div id="introduction">
+            <h1>
+                Amelia's <span style="color: white; background-color: rgb(236, 222, 20);">JS</span> Sandbox
+            </h1>
+            <h3>Same shit, different page</h3>
+            <p>I'm gonna learn JavaScript, watch me cook.</p>
+            <hr>
+            <p>Here's some Tool.</p>
+            <audio src="Media/vicarious.mp3" controls></audio>
+            <hr>
+            <p id="intro-button-text">Here, take a button.</p>
+            <button id="intro-button" onclick="introButton()">Click me please!</button>
+            <p id="ok-emoji"></p>
+            <hr>
+            <h3>My Other Pages</h3>
+            <a href="htmlsandbox.html">
+                <button>My HTML Sandbox</button>
+            </a>
+            <a href="csssandbox.html">
+                <button>My CSS Sandbox</button>
+            </a>
+            <a href="/">
+                <button>My Homepage</button>
+            </a>
+        </div>
+        <main>
+            <aside>
+                <p>So what I think I'm gonna do is recreate some older exercises I did in Python, but in JavaScript.</p>
+            </aside>
+            <section>
+                <div id="tip-calculator">
+                    <script src="Scripts/tip-calculator.js"></script>
+                    <h2>Tip Calculator</h2>
+                    <label for="dollars">How much was the meal?</label><br>
+                    <input id="dollars"><br><br>
+                    <label for="percent">What percentage would you like to tip?</label><br>
+                    <input id="percent"><br><br>
+                    <button onclick="calculateTip()">Enter</button>
+                    <h3>Leave a $<span id="tip-amount">0.00</span> tip!</h3>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
