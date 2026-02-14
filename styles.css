@@ -12,6 +12,7 @@
 
 .nav-item-extended:hover {
     border: 2px white solid;
+    font-weight: bold;
 }
 
 @media (max-width: 991px) {
