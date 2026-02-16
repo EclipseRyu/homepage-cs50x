@@ -1,8 +1,11 @@
-#top-navbar {
-    background-color: rgb(119, 80, 141);
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none;
+    }
 }
 
-#top-navbar:hover {
+#top-navbar {
+    background-color: rgb(81, 80, 141);
     border-bottom: 5px black solid;
 }
 
@@ -13,12 +16,6 @@
 .nav-item-extended:hover {
     border: 2px white solid;
     font-weight: bold;
-}
-
-@media (max-width: 991px) {
-    .desktop-only {
-        display: none;
-    }
 }
 
 #search-gag-button {
@@ -32,13 +29,23 @@
     color: white;
 }
 
-#card-section {
+#introduction {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     border: 5px black solid;
     width: 75%;
+    background-color: rgba(119, 80, 141, 0.562);
+}
+
+#card-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px black solid;
+    width: 65%;
     background-color: rgba(119, 80, 141, 0.562);
 }
 
