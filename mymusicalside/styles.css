@@ -59,6 +59,16 @@ body {
 }
 
 /* Site layout stylizations */
+#introduction {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px white solid;
+    background-color: rgba(119, 80, 141, 0.562);
+    color: white;
+}
+
 .sidebar-child {
     border: 3px white solid;
     margin: 3px;
