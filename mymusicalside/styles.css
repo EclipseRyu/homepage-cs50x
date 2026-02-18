@@ -55,7 +55,7 @@
 
 /* Background stuff */
 body {
-    background-image: url(/Media/darkvaporwave1.jpg);
+    background-image: url(/Sandbox/Media/cssthingy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 75%;
@@ -73,7 +73,16 @@ body {
     color: white;
 }
 
+#introduction:hover {
+    background-color: rgba(119, 80, 141, 0.75);
+}
+
 .sidebar-child {
     border: 3px white solid;
     margin: 3px;
+    background-color: rgba(80, 122, 141, 0.562);
+}
+
+.sidebar-child:hover {
+    background-color: rgba(80, 122, 141, 0.75);
 }
