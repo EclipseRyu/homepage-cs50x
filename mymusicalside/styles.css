@@ -40,8 +40,12 @@
 }
 
 /* Cute little fade-in animation upon page loading in */
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
+.fade-in-1 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.fade-in-2 {
+  animation: fadeIn 3s ease-in-out;
 }
 
 @keyframes fadeIn {
