@@ -1,7 +1,7 @@
 <!-- Website done for CS50x's "Homepage" problem. -->
 <!DOCTYPE html>
 
-<!-- Comments might be a bit more frequent here because of the funky grid layout -->
+<!-- Comments might be a bit more frequent here because of the funky grid layout, I need them to keep track of where stuff is at -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -13,6 +13,9 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         
+        <!-- Thank you Magix <3 -->
+        <link rel="stylesheet" href="https://unpkg.com/7.css">
+
         <!-- For embed stuff -->
         <meta property="og:title" content="Amelia's Homepage"/>
         <meta property="og:description" content="This is Amelia's temporary homepage, made for a CS50x problem set!"/>
@@ -88,9 +91,21 @@
                     
                     <!-- Left sidebar -->
                     <div class="col-md fade-in-2">
-                        <h2 class="text-center sidebar-child">Drum Stuff</h2>
-                        <h2 class="text-center sidebar-child">Piano Stuff</h2>
-                    </div>
+                        <section class="container sidebar-child">
+                            <h2 class="text-center" style="padding-top: 10px;">Drum Stuff</h2>
+                            <hr>
+                            <p>
+                                I'd say I'm something of a drummer. 
+                            </p>
+                        </section>
+
+                        <section class="container sidebar-child">
+                            <h2 class="text-center" style="padding-top: 10px;">Piano Stuff</h2>
+                            <hr>
+                            <p>
+                                Uhh lorem ipsum uhh foo bar baz uhhhh
+                            </p>
+                        </section>                    </div>
                     
                     <!-- Center sidebar (is that even a sidebar anymore?) -->
                     <div class="col-md fade-in-1">
@@ -110,7 +125,10 @@
                                 </div>
                                 <p style="text-align: center;">Here's the Spotify link :3</p>
                                 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2dFUtZtpWydAU4QMmUOK47?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                                <hr style="border: 1px white solid;">
+                                <hr>
+                                <p>
+                                    This page goes somewhat in-depth about the musical side to myself,
+                                </p>
                             </section>
                         </div>
 
@@ -126,16 +144,7 @@
             </div>
         </main>
         <!-- Needed 13 Latvias to push the footer to the bottom because I'm too lazy to find a better way to do it (for now) -->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <footer style="background-color: black; color: white; text-align: center;">
+        <footer style="background-color: black; color: white; text-align: center; margin-top: 100px;">
             <br>
             <p>
                 Made by yours truly<br>
