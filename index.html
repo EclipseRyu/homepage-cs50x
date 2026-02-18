@@ -51,28 +51,47 @@
                     </form>
                 </div>
             </nav>
+
             <!-- Cute little alert thingy because why not? -->
-            <div class="container px-4">
+            <div id="header-alert" class="container px-4">
                 <div class="alert alert-info container-sm text-center" role="alert" style="margin-top: 10px; width: fit-content;">
-                    This website is a work in progress! Expect unfinished pages and issues! <br>
+                    This website is a work in progress! Expect unfinished pages and issues!
                 </div>
             </div>
+
         </header>
         <main class="fade-in">
             <!-- Welcome message -->
-            <section id="introduction" class="container-fluid">
+            <section id="welcome-message" class="container-fluid">
                 <h1 style="text-align: center;">Welcome to my homepage!</h1>
             </section>
-            <!-- An about me, essentially -->
-            <div class="container px-4">
-                <section class="container-fluid" style="border: 5px white solid;">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+
+            <!-- An "about" section, essentially -->
+            <div class="container-lg px-4">
+                <section id="introduction" class="container-fluid" style="border: 5px white solid;">
+                    <h2 style="text-align: center;">Introduction</h2>
+                    <!-- Desktop Version -->
+                    <div class="container desktop-only">
+                        <div class="row">
+                            <div class="col" style="border: 2px white solid;">
+                                <h4 class="text-center">Who am I?</h4>
+                                <p>
+                                    Hello! My name is Amelia! I am a 19 year old (at the time of making this) trans woman who happens to have quite a new interest in programming.
+                                    Speaking of interests, I'm mainly into music and STEM. I have hobbies and passions within both. 
+                                    In particular, I want-
+                                </p>
+                            </div>
+                            <div class="col" style="border: 2px white solid;">
+                                <h4 class="text-center">What is this?</h4>
+                                <p>This here is my homepage!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile Version -->
+                    <p class="mobile-only">Hello, world</p>
                 </section>
             </div>
+            
             <!-- The section with cards in it -->
             <div class="container-fluid px-4">
                 <section id="card-section" class="container-fluid">
@@ -122,5 +141,14 @@
                 </section>
             </div>
         </main>
+        <footer style="background-color: black; color: white; text-align: center;">
+            <br>
+            <p>
+                Made by yours truly<br>
+                with Bootstrap <br>
+                for Harvard's CS50x.
+            </p>
+            <img src="/Sandbox/Media/noob-roblox.gif">
+        </footer>
     </body>
 </html>

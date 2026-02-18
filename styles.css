@@ -1,6 +1,13 @@
-/* Allows for disabling elements on mobile */
+/* Allows for disabling elements on everything other than desktop */
 @media (max-width: 991px) {
     .desktop-only {
+        display: none;
+    }
+}
+
+/* Allows for disabling elements for desktop users */
+@media (min-width: 991px) {
+    .mobile-only {
         display: none;
     }
 }
@@ -52,13 +59,23 @@ body {
 }
 
 /* Site layout stylizations */
-#introduction {
+#welcome-message {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     border: 5px white solid;
     width: 60%;
+    background-color: rgba(119, 80, 141, 0.562);
+    color: white;
+}
+
+#introduction {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px white solid;
     background-color: rgba(119, 80, 141, 0.562);
     color: white;
 }
