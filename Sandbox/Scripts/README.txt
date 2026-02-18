@@ -1,1 +1,0 @@
-The JavaScript files in this folder are basically CS50P problems done in JavaScript.
