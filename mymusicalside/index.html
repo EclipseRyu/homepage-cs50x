@@ -63,18 +63,40 @@
         </header>
         
         <main>
+            <!-- Introduction to the page (mobile version) -->
+            <div class="container mobile-only">
+                <section id="introduction" class="container-md" style="max-width: 600px;">
+                    <h1 class="text-center">My Musical Side</h1>
+                    <h5 class="text-center">If you clicked on the right link, get comfy, and read away!</h5 >
+                    <div style="text-align: center;">
+                        <img src="/Sandbox/Media/spongebob-eating-popcorn.gif" alt="This is meant to be spongebob eating popcorn." style="width: 200px;">
+                    </div>
+                    <p class="text-center">Otherwise, click <a href="/" style="color: rgb(121, 255, 255);">here</a> to go back!</p>
+                    <p>If you did mean to click onto this, listen to this ambience and enjoy the page!</p>
+                    <div style="text-align: center;">
+                        <audio src="/Sandbox/Media/recovery.mp3" controls></audio> <br>
+                    </div>
+                    <p style="text-align: center;">Here's the Spotify link :3</p>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2dFUtZtpWydAU4QMmUOK47?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <hr style="border: 1px white solid;">
+                </section>
+            </div>
+            
             <!-- A page layout inspired by https://ne0nbandit.art/home -->
             <div class="container-fluid" style="color: white;">
                 <div class="row">
+                    
                     <!-- Left sidebar -->
                     <div class="col-md fade-in-2">
                         <h2 class="text-center sidebar-child">Drum Stuff</h2>
                         <h2 class="text-center sidebar-child">Piano Stuff</h2>
                     </div>
+                    
                     <!-- Center sidebar (is that even a sidebar anymore?) -->
                     <div class="col-md fade-in-1">
-                        <!-- Introduction to the page -->
-                        <div class="container">
+
+                        <!-- Introduction to the page (desktop version) -->
+                        <div class="container desktop-only">
                             <section id="introduction" class="container-md" style="max-width: 600px;">
                                 <h1 class="text-center">My Musical Side</h1>
                                 <h5 class="text-center">If you clicked on the right link, get comfy, and read away!</h5 >
@@ -91,12 +113,15 @@
                                 <hr style="border: 1px white solid;">
                             </section>
                         </div>
+
                     </div>
+                    
                     <!-- Right sidebar -->
                     <div class="col-md fade-in-2">
                         <h2 class="text-center sidebar-child">My Love for Music</h2>
                         <h2 class="text-center sidebar-child">My Musical Taste</h2>
                     </div>
+
                 </div>
             </div>
         </main>
