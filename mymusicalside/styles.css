@@ -1,0 +1,121 @@
+/* Allows for disabling elements on everything other than desktop */
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Allows for disabling elements for desktop users */
+@media (min-width: 991px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+/* Navbar styling */
+#top-navbar {
+    background-color: rgb(81, 80, 141);
+    border-bottom: 5px white solid;
+}
+
+.nav-item-extended {
+    border: 0px;
+}
+
+.nav-item-extended:hover {
+    border: 2px white solid;
+    font-weight: bold;
+}
+
+/* Silly search gag */
+#search-gag-button {
+    border-width: 2px;
+    border-color: rgb(119, 1, 255);
+    color: rgb(208, 181, 252);
+}
+
+#search-gag-button:hover {
+    background-color: rgba(119, 0, 255, 0.308);
+    color: white;
+}
+
+/* Cute little fade-in animation upon page loading in */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Background stuff */
+body {
+    background-image: url(/Media/darkvaporwave1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+    background-attachment: fixed;
+}
+
+/* Site layout stylizations */
+#welcome-message {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px white solid;
+    width: 60%;
+    background-color: rgba(119, 80, 141, 0.562);
+    color: white;
+}
+
+#introduction {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px white solid;
+    background-color: rgba(119, 80, 141, 0.562);
+    color: white;
+}
+
+#card-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px white solid;
+    max-width: 1200px;
+    background-color: rgba(119, 80, 141, 0.562);
+}
+
+/* Card stylizations */
+.card-button {
+    border: 2px rgb(44, 14, 71) solid;
+    background-color: rgb(119, 80, 141);
+    color: white;
+}
+
+.card-button:hover {
+    text-decoration: underline;
+    color: azure;
+}
+
+.card-extended {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 18rem;
+    border: 5px white solid;
+    background-color: black;
+    color: white;
+}
+
+/* Makes the cards look better on mobile */
+@media (max-width: 500px) {
+    .card-responsive {
+        width: 50vw !important;
+        position: relative;
+    }
+}
