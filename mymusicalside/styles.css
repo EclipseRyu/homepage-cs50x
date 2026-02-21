@@ -79,7 +79,8 @@ body {
 
 .sidebar-child {
     border: 3px white solid;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
     background-color: rgba(80, 122, 141, 0.562);
 }
 
