@@ -6,7 +6,7 @@
 }
 
 /* Allows for disabling elements for desktop users */
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .mobile-only {
         display: none;
     }
